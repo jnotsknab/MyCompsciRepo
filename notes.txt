@@ -1,0 +1,102 @@
+all Future notes here:
+
+Variable: A named reference to a value that can be used and manipulated in a program.
+
+String: A sequence of characters enclosed in quotation marks (either single or double).
+
+List: An ordered collection of elements, enclosed in square brackets and separated by commas.
+
+Tuple: An ordered collection of elements, enclosed in parentheses and separated by commas. Tuples are immutable, meaning their values cannot be changed after creation.
+
+Dictionary: A collection of key-value pairs, enclosed in curly braces and separated by commas.
+
+Function: A block of code that performs a specific task, and can be reused throughout a program.
+
+Module: A file containing Python code, which can be imported and used in another program.
+
+Loop: A programming construct that allows you to repeat a block of code multiple times. There are two types of loops in Python: for loops and while loops.
+
+Conditional statement: A programming construct that allows you to execute different blocks of code based on a specific condition. The most common types of conditional statements are if, elif, and else.
+
+Exception: An error that occurs during the execution of a program, which can be handled using try and except blocks.
+
+Iterator: An object that allows you to traverse through a collection of items, one item at a time. Iterators are used in for loops to access the elements of a collection.
+
+Generator: A type of iterator that generates values on-the-fly, rather than storing them in memory.
+
+Class: A blueprint for creating objects that have specific attributes and methods.
+
+Object: An instance of a class that has its own unique state and behavior.
+
+Attribute: A variable that belongs to an object and stores its state.
+
+Method: A function that belongs to an object and can be called on that object.
+
+Inheritance: A way to create a new class that is a modified version of an existing class, by inheriting its attributes and methods.
+
+Polymorphism: A concept where different objects can be used interchangeably, even if they have different data types or implementations.
+
+Encapsulation: A way to restrict access to an object's data and methods, by defining public and private attributes and methods.
+
+Recursion: A technique where a function calls itself, either directly or indirectly, to solve a problem by breaking it down into smaller subproblems.
+
+Lambda function: An anonymous function that can take any number of arguments, but can only have one expression.
+
+Decorator: A function that takes another function as input, and returns a modified version of that function with added functionality.
+
+Namespace: A container for variables and functions that is used to prevent naming conflicts.
+
+Package: A collection of modules that are organized together in a directory, and can be used as a single unit.
+
+PEP: Python Enhancement Proposal, a document that proposes and describes a new feature or improvement to the Python language.
+
+
+
+
+
+
+Iterable: An object that can be iterated over using a loop, such as a list or a tuple.
+
+
+Index: A position in a sequence, starting from 0 for the first element.
+
+Slice: A portion of a sequence, defined by a start index, stop index, and optional step size.
+
+Mutable: An object whose value can be changed after it is created, such as a list or a dictionary.
+
+Immutable: An object whose value cannot be changed after it is created, such as a tuple or a string.
+
+Argument: A value passed to a function when it is called, which can be used inside the function.
+
+Parameter: A variable used in a function definition to represent an argument that will be passed to the function.
+
+Keyword argument: An argument passed to a function using its parameter name, rather than its position in the argument list.
+
+Default argument: A parameter that has a default value assigned to it, so that it can be omitted when the function is called.
+
+Namespace: A dictionary-like object that contains the names and values of variables in a particular scope.
+
+Scope: The area of the program where a variable is defined and can be accessed.
+
+Global scope: The scope that contains variables that are defined outside of any function or class definition, and can be accessed from anywhere in the program.
+
+Local scope: The scope that contains variables that are defined inside a function or class definition, and can only be accessed from within that function or class.
+
+Module scope: The scope that contains variables that are defined at the top level of a module, and can be accessed from anywhere in that module.
+
+Package scope: The scope that contains variables that are defined at the top level of a package, and can be accessed from anywhere in that package.
+
+Import: A statement that allows you to use code from another module in your program.
+
+Alias: A different name given to a module or object, using the "as" keyword in an import statement.
+
+Package: A collection of modules that are organized together in a directory, and can be used as a single unit.
+
+Exception handling: The process of dealing with errors that may occur during the execution of a program, using try, except, and finally blocks.
+
+Assertion: A statement that checks if a condition is true, and raises an AssertionError if it is false. Assertions are used for debugging and testing purposes.
+
+
+
+
+

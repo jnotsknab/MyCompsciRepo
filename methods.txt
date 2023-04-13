@@ -1,0 +1,97 @@
+String methods: Python has a variety of methods to manipulate and work with strings. Some common string methods include:
+
+strip(): Remove leading and trailing white spaces.
+
+
+split(): Split a string into a list of substrings.
+
+join(): Join a list of strings into a single string.
+
+replace(): Replace occurrences of a substring with another substring.
+
+upper(), lower(): Convert a string to uppercase or lowercase.
+
+startswith(), endswith(): Check if a string starts or ends with a specified substring.
+
+List methods: Python provides several methods to manipulate lists:
+
+
+
+append(): Add an element to the end of a list.
+
+extend(): Append elements from another list or iterable to a list.
+
+insert(): Insert an element at a specified position in a list.
+
+remove(): Remove the first occurrence of an element from a list.
+
+pop(): Remove and return an element at a specified position in a list.
+
+sort(): Sort a list in ascending or descending order.
+
+reverse(): Reverse the order of elements in a list.
+
+Dictionary methods: Python offers methods to work with dictionaries:
+
+
+
+get(): Retrieve the value associated with a key or return a default value if the key is not found.
+
+keys(): Return a view of the dictionary's keys.
+
+values(): Return a view of the dictionary's values.
+
+items(): Return a view of the dictionary's key-value pairs.
+
+update(): Update the dictionary with key-value pairs from another dictionary or iterable.
+
+pop(): Remove and return the value associated with a key or return a default value if the key is not found.
+
+popitem(): Remove and return an arbitrary key-value pair from the dictionary.
+
+Set methods: Python provides methods to work with sets:
+
+
+
+add(): Add an element to a set.
+
+update(): Add multiple elements from an iterable to a set.
+
+remove(): Remove an element from a set, raising a KeyError if the element is not found.
+
+discard(): Remove an element from a set if it is present.
+
+pop(): Remove and return an arbitrary element from the set.
+
+union(), intersection(), difference(), symmetric_difference(): Perform set operations like union, intersection, difference, and symmetric difference.
+
+File handling methods: Python has built-in methods for working with files:
+
+
+
+open(): Open a file for reading, writing, or appending.
+
+read(): Read the entire content of a file.
+
+readline(): Read a single line from a file.
+
+readlines(): Read all lines from a file and return them as a list.
+
+write(): Write a string to a file.
+
+
+writelines(): Write a list of strings to a file.
+
+close(): Close an open file.
+
+Object-oriented methods: Python supports object-oriented programming, and classes can have special methods:
+
+
+
+__init__(): The constructor method, called when an object is created.
+
+__str__(): A string representation of an object, called by the str() built-in function and the
+
+
+
+

@@ -1,0 +1,17 @@
+math: Provides mathematical functions, such as trigonometric functions, logarithms, exponentiation, and constants like pi and e.
+statistics: Offers functions for statistical calculations, including mean, median, mode, variance, and standard deviation.
+random: Contains functions for generating random numbers, selecting random elements from sequences, and shuffling elements in a list.
+datetime: Provides classes for working with dates and times, such as date, time, datetime, timedelta, and tzinfo.
+os: Offers functions for interacting with the operating system, including file and directory management, process control, and environment variables.
+sys: Provides access to system-specific parameters and functions, such as command-line arguments, standard input/output streams, and interpreter information.
+re: Implements regular expressions for advanced string searching, matching, and manipulation.
+json: Supports encoding and decoding JSON data, a common format for data interchange between applications.
+csv: Provides tools for reading and writing CSV files, a widely used format for storing tabular data.
+collections: Implements specialized container datatypes, such as namedtuple, deque, Counter, OrderedDict, and defaultdict.
+itertools: Offers a collection of fast, memory-efficient tools for working with iterators and solving common problems related to iteration.
+functools: Contains higher-order functions and tools for working with functions, including function caching, partial function application, and function composition.
+urllib: Provides a suite of tools for working with URLs and web requests, including fetching data from URLs, parsing URLs, and handling URL encoding/decoding.
+socket: Offers low-level networking capabilities for creating and managing sockets, enabling communication between computers over a network.
+
+you must import first
+
