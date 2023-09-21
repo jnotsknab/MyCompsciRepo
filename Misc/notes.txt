@@ -1,0 +1,177 @@
+
+Variable: A named container that holds a value or reference to an object.
+
+Data type: The type or kind of value stored in a variable, such as integer, float, string, boolean, etc.
+
+Function: A named block of code that performs a specific task, which can be called or invoked as needed.
+
+List: A collection of ordered, mutable items enclosed in square brackets, separated by commas.
+
+Tuple: A collection of ordered, immutable items enclosed in parentheses, separated by commas.
+
+Dictionary: A collection of unordered, mutable key-value pairs enclosed in curly braces, separated by commas.
+
+Boolean: A data type that represents a logical value of either true or false.
+
+Loop: A control flow statement that executes a block of code repeatedly until a certain condition is met.
+
+Conditional: A control flow statement that performs a specific action depending on whether a condition is true or false.
+
+Iterable: An object that can be iterated over, meaning you can loop through its elements one at a time, such as a list or tuple.
+
+Class: A blueprint for creating objects that defines the attributes and methods that the objects will have.
+
+Object: An instance of a class that has its own set of attributes and methods.
+
+Method: A function defined inside a class that performs some action or operation on the object.
+
+Attribute: A variable that is stored within an object and defines a characteristic of the object.
+
+Module: A file containing Python code that can be imported and used in another program.
+
+Package: A collection of related modules that are organized together in a directory hierarchy.
+
+Exception: An error that occurs during program execution that disrupts normal program flow.
+
+Try/except block: A block of code that catches and handles exceptions, allowing the program to continue running even if an error occurs.
+
+File I/O: The process of reading from and writing to files on disk.
+
+Regular expression: A sequence of characters that define a search pattern, used for searching and manipulating text.
+
+Lambda function: An anonymous function that can be defined in a single line of code, often used for simple operations or as arguments to other functions.
+
+Decorator: A function that takes another function as input and returns a modified version of that function.
+
+Recursion: The process of calling a function from within itself, used for solving problems that can be broken down into smaller, similar subproblems.
+
+Generator: A special type of function that generates a sequence of values on-the-fly, rather than storing them all in memory at once.
+
+Threading: The process of running multiple threads of execution concurrently within a single program.
+
+Multiprocessing: The process of running multiple processes concurrently within a single program, often used for parallel processing and performance optimization.
+
+Inheritance: The ability of a class to inherit the attributes and methods of another class.
+
+Polymorphism: The ability of an object to take on many forms, meaning that it can be used in multiple ways and in different contexts.
+
+Abstraction: The process of hiding implementation details while still providing useful functionality.
+
+Encapsulation: The practice of restricting access to certain parts of an object, often used to protect data and prevent unintended changes.
+
+Namespace: A container for variables and functions that provides a way to avoid naming conflicts between different parts of a program.
+
+Keyword: A reserved word in Python that has a specific meaning and cannot be used as a variable name or function name.
+
+Argument: A value passed to a function
+
+
+
+List methods:
+append(): Adds an element to the end of a list.
+extend(): Adds the elements of another list to the end of a list.
+insert(): Inserts an element at a specific position in a list.
+remove(): Removes the first occurrence of a value from a list.
+pop(): Removes and returns the element at a specified index in a list.
+index(): Returns the index of the first occurrence of a value in a list.
+count(): Returns the number of occurrences of a value in a list.
+sort(): Sorts the elements of a list in ascending order.
+reverse(): Reverses the order of the elements in a list.
+Dictionary methods:
+keys(): Returns a list of all the keys in a dictionary.
+values(): Returns a list of all the values in a dictionary.
+items(): Returns a list of all the key-value pairs in a dictionary.
+get(): Returns the value associated with a specified key in a dictionary.
+pop(): Removes and returns the value associated with a specified key in a dictionary.
+update(): Adds or updates key-value pairs in a dictionary based on another dictionary or iterable object.
+String methods:
+upper(): Converts all characters in a string to uppercase.
+lower(): Converts all characters in a string to lowercase.
+capitalize(): Capitalizes the first character of a string.
+replace(): Replaces all occurrences of a specified substring in a string with another substring.
+split(): Splits a string into a list of substrings based on a specified delimiter.
+join(): Joins a list of substrings into a single string using a specified delimiter.
+strip(): Removes whitespace or other specified characters from the beginning and end of a string.
+startswith(): Returns true if a string starts with a specified substring.
+endswith(): Returns true if a string ends with a specified substring.
+Tuple methods:
+count(): Returns the number of occurrences of a value in a tuple.
+index(): Returns the index of the first occurrence of a value in a tuple.
+Class methods:
+init(): Initializes an object of a class.
+str(): Returns a string representation of an object.
+repr(): Returns a string representation of an object that can be used to recreate the object.
+add(): Defines the behavior of the + operator for objects of a class.
+eq(): Defines the behavior of the == operator for objects of a class.
+File I/O methods:
+open(): Opens a file and returns a file object.
+read(): Reads the contents of a file into a string or bytes object.
+write(): Writes a string or bytes object to a file.
+close(): Closes a file and frees up any system resources used by the file object.
+
+
+
+copy(): Returns a shallow copy of a list.
+clear(): Removes all elements from a list.
+count(): Returns the number of occurrences of a value in a list.
+index(): Returns the index of the first occurrence of a value in a list.
+join(): Concatenates a list of strings into a single string using a specified separator.
+max(): Returns the maximum value in a list.
+min(): Returns the minimum value in a list.
+remove(): Removes the first occurrence of a value from a list.
+reverse(): Reverses the order of the elements in a list.
+sort(): Sorts the elements of a list in ascending order.
+Tuple: A collection of ordered, immutable items enclosed in parentheses, separated by commas.
+
+count(): Returns the number of occurrences of a value in a tuple.
+index(): Returns the index of the first occurrence of a value in a tuple.
+No additional methods.
+
+
+
+You are not allowed to add or remove entries from a dictionary while iterating it
+This goes for any iterable; you cannot changed the length of an iterable while in a for in loop using that iterable
+You are allowed to modify entries in a dictionary during a for-in loop
+Make sure you only try to access keys that are in the dictionary
+An easy way to check if a key exists is key in my_dict.keys()
+
+
+
+Here are some more string methods that may prove to be helpful this lab:
+
+.lstrip(), .rstrip(), and .strip()
+Remove whitespace (e.g. extra tabs, spaces, newlines) from the left side (lstrip()), right side (rstrip()), or both side (strip()) of a string
+RECALL: A string is immutable so if you want the change to be permanent, you have to reassign the string
+.replace(old,new)
+Replaces all occurences of the the old string with the new string
+Example: Assume the string name word contains "azzle" then word.replace('z', 'p') would return a new string "apple"
+.center(width, fillchar)
+Creates a string with the original string centered in the provided length and surrounded by the fill characters
+Example:
+
+word = 'welcome' 
+print(word.center(20,'='))
+
+
+
+
+Lab 8 instructions eecs168
+
+In this program it will be helpful to define the following functions:
+
+build_count(text)
+returns a dictionary with every word in the text and the count of how many times that words appeared in the text
+words should be "cleaned" (see function clean_word)
+clean_word(word)
+returns the word with the following changes:
+converted to all lower-case
+all occurrences of '!', '?', ':', ';', ',', '|', '.', '[', ']','(',')' and '--' (those are two dashes side-by-side) are removed
+all leading and trailing whitespace is removed
+unique_words(word_counts)
+takes in a dictionary of words and their counts and returns a list (not a dict!) of all words that have a count of exactly 1
+main()
+In charge of printing a welcome message
+Obtains file name of input file (e.g. romeoandjuliet.txt) from user
+Creates the following output files:
+word_data.txt - contains the words and their corresponding counts
+unique_words.txt - contains a listing (no counts) of all words that appear exactly once
